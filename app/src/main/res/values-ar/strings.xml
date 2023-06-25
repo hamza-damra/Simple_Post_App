@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">فيسبوك</string>
+    <string name="following">يتابع</string>
+    <string name="posts">منشورات</string>
+    <string name="followers">متابعين</string>
+    <string name="like">اعجاب</string>
+    <string name="share">مشاركة</string>
+    <string name="comment">تعليق</string>
+    <string name="follow">متابعه</string>
+</resources>

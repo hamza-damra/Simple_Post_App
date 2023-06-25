@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddPost_Activity">
+
+    <EditText
+        android:id="@+id/et_add_post_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:padding="16dp"
+        android:paddingTop="16dp" />
+
+    <EditText
+        android:id="@+id/et_add_post_descreption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:hint="Descreption"
+        android:inputType="text"
+        android:padding="16dp"
+        android:paddingTop="16dp" />
+
+    <EditText
+        android:id="@+id/et_add_post_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="date"
+        android:padding="16dp"
+        android:paddingTop="16dp" />
+
+    <EditText
+        android:id="@+id/et_add_post_followers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:hint="Followers"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:paddingTop="16dp" />
+
+    <EditText
+        android:id="@+id/et_add_post_posts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:hint="Posts"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:paddingTop="16dp" />
+
+    <EditText
+        android:id="@+id/et_add_post_following"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:hint="Following"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:paddingTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_add_post_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="16dp"
+        android:text="Add Post" />
+</LinearLayout>

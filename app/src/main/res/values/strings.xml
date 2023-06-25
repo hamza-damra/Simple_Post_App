@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CompleteExample</string>
+    <string name="following">Following</string>
+    <string name="posts">Posts</string>
+    <string name="followers">Followers</string>
+    <string name="like">Like</string>
+    <string name="share">Share</string>
+    <string name="comment">Comment</string>
+    <string name="follow">follow</string>
+    <string name="plah_plah_plah">Plah Plah Plah</string>
+    <string name="following_edit">Following</string>
+</resources>
